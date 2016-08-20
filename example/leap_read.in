@@ -1,0 +1,12 @@
+# Feed this file into LEaP as follows: tleap -f leap_read.in
+# It will produce topology and coordinates files: acgu_leap.top and acgu_leap.crd respectively.
+# The extra output file acgu_leap.pdb is the same as acgu.pdb but with hydrogens added.
+
+source leaprc.ff14SB
+
+rna = loadpdb acgu.pdb
+
+saveAmberParm rna acgu_leap.top acgu_leap.crd
+savePDB rna acgu_leap.pdb
+
+quit

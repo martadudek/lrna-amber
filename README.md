@@ -27,6 +27,7 @@ Copy the following files to appropriate Amber directories:
 # Using
 
 The topology and coordinates (*.top and *.crd) of systems containing L-RNA can be later used with other MD packages (e.g. NAMD).
+Please see the example in example directory.
 
 # Citing
 If you find it useful, please acknowledge its use by citing: 

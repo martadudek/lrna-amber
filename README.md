@@ -4,8 +4,8 @@ Correction to AMBER force field for simulating L-RNA.
 This repository contains the following files: 
 - leaprc.ff14SB: leap file for loading the force field
 - parm10_LRNA.dat: leap file corrected for L-RNA
-- nucleic12_LRNA.lib: leap new library for L-RNA
-- nucleic10.in: leap file with L-ribonucleotides added
+- nucleic12_LRNA.lib: new leap library for L-RNA
+- nucleic10.in: leap file with L-ribonucleotides
 - executable script (install.sh)
 - exemplary .pdb file to test the modified force field
 
@@ -25,13 +25,17 @@ Copy the following files to appropriate Amber directories:
 - nucleic10.in to  $AMBERHOME/dat/leap/prep (OVERWRITE)
 
 # Using
-
 Please see the example in "example" directory. It consists of a small PDB file with 4-nt long heterochiral duplex + a LEaP script.
 
 The topology and coordinates (*.top and *.crd) of systems containing L-RNA can be later used with other MD packages (e.g. NAMD).
 
 # Citing
 If you find my work useful, please acknowledge the source by citing:
-Marta Dudek, Joanna Trylska, Molecular dynamics simulations of L-RNA involving homo and heterochiral complexes.
 
-If you need further assistance, feel free to contact me at mdudek at cent dot uw dot edu dot pl.
+Marta Dudek, Joanna Trylska
+,,Molecular Dynamics Simulations of L-RNA Involving Homo- and Heterochiral Complexes''
+Journal of Chemical Theory and Computation, February 2017
+DOI: 10.1021/acs.jctc.6b01075
+link: http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b01075
+
+If you need further assistance, feel free to contact me at mdudek at cent dot uw dot edu dot pl

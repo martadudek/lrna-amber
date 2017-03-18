@@ -27,16 +27,16 @@
  "G3"
  "G5"
  "GN"
- "LA"
+ "LA0"
  "LA3" 
  "LA5"
- "LC"
+ "LC0"
  "LC3" 
  "LC5"
- "LG"
+ "LG0"
  "LG3" 
  "LG5"
- "LU"
+ "LU0"
  "LU3" 
  "LU5"
  "OHE"
@@ -6300,7 +6300,7 @@
  0.0 0.0 0.0
  0.0 0.0 0.0
  0.0 0.0 0.0
-!entry.LA.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+!entry.LA0.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
  "P" "P" 0 1 131072 1 15 1.166200
  "OP1" "O2" 0 1 131072 2 8 -0.776000
  "OP2" "O2" 0 1 131072 3 8 -0.776000
@@ -6334,7 +6334,7 @@
  "O2'" "OH" 0 1 131072 31 8 -0.613900
  "HO2'" "HO" 0 1 131072 32 1 0.418600
  "O3'" "OS" 0 1 131072 33 8 -0.524600
-!entry.LA.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+!entry.LA0.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
  "P" "P" 0 -1 0.0
  "OP1" "O2" 0 -1 0.0
  "OP2" "O2" 0 -1 0.0
@@ -6368,18 +6368,18 @@
  "O2'" "OH" 0 -1 0.0
  "HO2'" "HO" 0 -1 0.0
  "O3'" "OS" 0 -1 0.0
-!entry.LA.unit.boundbox array dbl
+!entry.LA0.unit.boundbox array dbl
  -1.000000
  0.0
  0.0
  0.0
  0.0
-!entry.LA.unit.childsequence single int
+!entry.LA0.unit.childsequence single int
  2
-!entry.LA.unit.connect array int
+!entry.LA0.unit.connect array int
  1
  33
-!entry.LA.unit.connectivity table  int atom1x  int atom2x  int flags
+!entry.LA0.unit.connectivity table  int atom1x  int atom2x  int flags
  1 2 1
  1 3 1
  1 4 1
@@ -6415,7 +6415,7 @@
  29 30 1
  29 31 1
  31 32 1
-!entry.LA.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+!entry.LA0.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
  "U" 0 "R" 1
  "R" 1 "A" 1
  "R" 1 "A" 2
@@ -6450,9 +6450,9 @@
  "R" 1 "A" 31
  "R" 1 "A" 32
  "R" 1 "A" 33
-!entry.LA.unit.name single str
- "LA"
-!entry.LA.unit.positions table  dbl x  dbl y  dbl z
+!entry.LA0.unit.name single str
+ "LA0"
+!entry.LA0.unit.positions table  dbl x  dbl y  dbl z
  2.314489 1.776673 -0.478436
  1.933410 3.073374 -1.081549
  3.156547 0.871841 -1.292450
@@ -6486,19 +6486,19 @@
  6.272982 2.049941 3.757136
  6.759278 1.235228 3.610987
  5.029898 4.128649 3.998279
-!entry.LA.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+!entry.LA0.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
  1 33 0 0 0 0
-!entry.LA.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
- "LA" 1 34 1 "n" 0
-!entry.LA.unit.residuesPdbSequenceNumber array int
+!entry.LA0.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "LA0" 1 34 1 "n" 0
+!entry.LA0.unit.residuesPdbSequenceNumber array int
  0
-!entry.LA.unit.solventcap array dbl
+!entry.LA0.unit.solventcap array dbl
  -1.000000
  0.0
  0.0
  0.0
  0.0
-!entry.LA.unit.velocities table  dbl x  dbl y  dbl z
+!entry.LA0.unit.velocities table  dbl x  dbl y  dbl z
  0.0 0.0 0.0
  0.0 0.0 0.0
  0.0 0.0 0.0
@@ -6990,7 +6990,7 @@
  0.0 0.0 0.0
  0.0 0.0 0.0
  0.0 0.0 0.0
-!entry.LC.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+!entry.LC0.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
  "P" "P" 0 1 131072 1 15 1.166200
  "OP1" "O2" 0 1 131072 2 8 -0.776000
  "OP2" "O2" 0 1 131072 3 8 -0.776000
@@ -7022,7 +7022,7 @@
  "O2'" "OH" 0 1 131072 29 8 -0.613900
  "HO2'" "HO" 0 1 131072 30 1 0.418600
  "O3'" "OS" 0 1 131072 31 8 -0.524600
-!entry.LC.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+!entry.LC0.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
  "P" "P" 0 -1 0.0
  "OP1" "O2" 0 -1 0.0
  "OP2" "O2" 0 -1 0.0
@@ -7054,18 +7054,18 @@
  "O2'" "OH" 0 -1 0.0
  "HO2'" "HO" 0 -1 0.0
  "O3'" "OS" 0 -1 0.0
-!entry.LC.unit.boundbox array dbl
+!entry.LC0.unit.boundbox array dbl
  -1.000000
  0.0
  0.0
  0.0
  0.0
-!entry.LC.unit.childsequence single int
+!entry.LC0.unit.childsequence single int
  2
-!entry.LC.unit.connect array int
+!entry.LC0.unit.connect array int
  1
  31
-!entry.LC.unit.connectivity table  int atom1x  int atom2x  int flags
+!entry.LC0.unit.connectivity table  int atom1x  int atom2x  int flags
  1 2 1
  1 3 1
  1 4 1
@@ -7098,7 +7098,7 @@
  27 28 1
  27 29 1
  29 30 1
-!entry.LC.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+!entry.LC0.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
  "U" 0 "R" 1
  "R" 1 "A" 1
  "R" 1 "A" 2
@@ -7131,9 +7131,9 @@
  "R" 1 "A" 29
  "R" 1 "A" 30
  "R" 1 "A" 31
-!entry.LC.unit.name single str
- "LC"
-!entry.LC.unit.positions table  dbl x  dbl y  dbl z
+!entry.LC0.unit.name single str
+ "LC0"
+!entry.LC0.unit.positions table  dbl x  dbl y  dbl z
  2.314489 1.776673 -0.478436
  1.933410 3.073374 -1.081549
  3.156547 0.871841 -1.292450
@@ -7165,19 +7165,19 @@
  6.272982 2.049941 3.757136
  6.759278 1.235228 3.610987
  5.029898 4.128649 3.998279
-!entry.LC.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+!entry.LC0.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
  1 31 0 0 0 0
-!entry.LC.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
- "LC" 1 32 1 "n" 0
-!entry.LC.unit.residuesPdbSequenceNumber array int
+!entry.LC0.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "LC0" 1 32 1 "n" 0
+!entry.LC0.unit.residuesPdbSequenceNumber array int
  0
-!entry.LC.unit.solventcap array dbl
+!entry.LC0.unit.solventcap array dbl
  -1.000000
  0.0
  0.0
  0.0
  0.0
-!entry.LC.unit.velocities table  dbl x  dbl y  dbl z
+!entry.LC0.unit.velocities table  dbl x  dbl y  dbl z
  0.0 0.0 0.0
  0.0 0.0 0.0
  0.0 0.0 0.0
@@ -7641,7 +7641,7 @@
  0.0 0.0 0.0
  0.0 0.0 0.0
  0.0 0.0 0.0
-!entry.LG.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+!entry.LG0.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
  "P" "P" 0 1 131072 1 15 1.166200
  "OP1" "O2" 0 1 131072 2 8 -0.776000
  "OP2" "O2" 0 1 131072 3 8 -0.776000
@@ -7676,7 +7676,7 @@
  "O2'" "OH" 0 1 131072 32 8 -0.613900
  "HO2'" "HO" 0 1 131072 33 1 0.418600
  "O3'" "OS" 0 1 131072 34 8 -0.524600
-!entry.LG.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+!entry.LG0.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
  "P" "P" 0 -1 0.0
  "OP1" "O2" 0 -1 0.0
  "OP2" "O2" 0 -1 0.0
@@ -7711,18 +7711,18 @@
  "O2'" "OH" 0 -1 0.0
  "HO2'" "HO" 0 -1 0.0
  "O3'" "OS" 0 -1 0.0
-!entry.LG.unit.boundbox array dbl
+!entry.LG0.unit.boundbox array dbl
  -1.000000
  0.0
  0.0
  0.0
  0.0
-!entry.LG.unit.childsequence single int
+!entry.LG0.unit.childsequence single int
  2
-!entry.LG.unit.connect array int
+!entry.LG0.unit.connect array int
  1
  34
-!entry.LG.unit.connectivity table  int atom1x  int atom2x  int flags
+!entry.LG0.unit.connectivity table  int atom1x  int atom2x  int flags
  1 2 1
  1 3 1
  1 4 1
@@ -7759,7 +7759,7 @@
  30 31 1
  30 32 1
  32 33 1
-!entry.LG.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+!entry.LG0.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
  "U" 0 "R" 1
  "R" 1 "A" 1
  "R" 1 "A" 2
@@ -7795,9 +7795,9 @@
  "R" 1 "A" 32
  "R" 1 "A" 33
  "R" 1 "A" 34
-!entry.LG.unit.name single str
- "LG"
-!entry.LG.unit.positions table  dbl x  dbl y  dbl z
+!entry.LG0.unit.name single str
+ "LG0"
+!entry.LG0.unit.positions table  dbl x  dbl y  dbl z
  2.314489 1.776673 -0.478436
  1.933410 3.073374 -1.081549
  3.156547 0.871841 -1.292450
@@ -7832,19 +7832,19 @@
  6.272982 2.049941 3.757136
  6.759278 1.235228 3.610987
  5.029898 4.128649 3.998279
-!entry.LG.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+!entry.LG0.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
  1 34 0 0 0 0
-!entry.LG.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
- "LG" 1 35 1 "n" 0
-!entry.LG.unit.residuesPdbSequenceNumber array int
+!entry.LG0.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "LG0" 1 35 1 "n" 0
+!entry.LG0.unit.residuesPdbSequenceNumber array int
  0
-!entry.LG.unit.solventcap array dbl
+!entry.LG0.unit.solventcap array dbl
  -1.000000
  0.0
  0.0
  0.0
  0.0
-!entry.LG.unit.velocities table  dbl x  dbl y  dbl z
+!entry.LG0.unit.velocities table  dbl x  dbl y  dbl z
  0.0 0.0 0.0
  0.0 0.0 0.0
  0.0 0.0 0.0
@@ -8349,7 +8349,7 @@
  0.0 0.0 0.0
  0.0 0.0 0.0
  0.0 0.0 0.0
-!entry.LU.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+!entry.LU0.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
  "P" "P" 0 1 131072 1 15 1.166200
  "OP1" "O2" 0 1 131072 2 8 -0.776000
  "OP2" "O2" 0 1 131072 3 8 -0.776000
@@ -8380,7 +8380,7 @@
  "O2'" "OH" 0 1 131072 28 8 -0.613900
  "HO2'" "HO" 0 1 131072 29 1 0.418600
  "O3'" "OS" 0 1 131072 30 8 -0.524600
-!entry.LU.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+!entry.LU0.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
  "P" "P" 0 -1 0.0
  "OP1" "O2" 0 -1 0.0
  "OP2" "O2" 0 -1 0.0
@@ -8411,18 +8411,18 @@
  "O2'" "OH" 0 -1 0.0
  "HO2'" "HO" 0 -1 0.0
  "O3'" "OS" 0 -1 0.0
-!entry.LU.unit.boundbox array dbl
+!entry.LU0.unit.boundbox array dbl
  -1.000000
  0.0
  0.0
  0.0
  0.0
-!entry.LU.unit.childsequence single int
+!entry.LU0.unit.childsequence single int
  2
-!entry.LU.unit.connect array int
+!entry.LU0.unit.connect array int
  1
  30
-!entry.LU.unit.connectivity table  int atom1x  int atom2x  int flags
+!entry.LU0.unit.connectivity table  int atom1x  int atom2x  int flags
  1 2 1
  1 3 1
  1 4 1
@@ -8454,7 +8454,7 @@
  26 27 1
  26 28 1
  28 29 1
-!entry.LU.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+!entry.LU0.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
  "U" 0 "R" 1
  "R" 1 "A" 1
  "R" 1 "A" 2
@@ -8486,9 +8486,9 @@
  "R" 1 "A" 28
  "R" 1 "A" 29
  "R" 1 "A" 30
-!entry.LU.unit.name single str
- "LU"
-!entry.LU.unit.positions table  dbl x  dbl y  dbl z
+!entry.LU0.unit.name single str
+ "LU0"
+!entry.LU0.unit.positions table  dbl x  dbl y  dbl z
  2.314489 1.776673 -0.478436
  1.933410 3.073374 -1.081549
  3.156547 0.871841 -1.292450
@@ -8519,19 +8519,19 @@
  6.272982 2.049941 3.757136
  6.759278 1.235228 3.610987
  5.029898 4.128649 3.998279
-!entry.LU.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+!entry.LU0.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
  1 30 0 0 0 0
-!entry.LU.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
- "LU" 1 31 1 "n" 0
-!entry.LU.unit.residuesPdbSequenceNumber array int
+!entry.LU0.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "LU0" 1 31 1 "n" 0
+!entry.LU0.unit.residuesPdbSequenceNumber array int
  0
-!entry.LU.unit.solventcap array dbl
+!entry.LU0.unit.solventcap array dbl
  -1.000000
  0.0
  0.0
  0.0
  0.0
-!entry.LU.unit.velocities table  dbl x  dbl y  dbl z
+!entry.LU0.unit.velocities table  dbl x  dbl y  dbl z
  0.0 0.0 0.0
  0.0 0.0 0.0
  0.0 0.0 0.0
@@ -9865,3 +9865,4 @@
  0.0 0.0 0.0
  0.0 0.0 0.0
  0.0 0.0 0.0
+ 

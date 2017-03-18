@@ -1,4 +1,4 @@
-PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + LD3 for L_RNA
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + mdudek for L_RNA
 C  12.01         0.616  !            sp2 C carbonyl group 
 CA 12.01         0.360               sp2 C pure aromatic (benzene)
 CB 12.01         0.360               sp2 aromatic C, 5&6 membered ring junction
@@ -803,19 +803,29 @@ CT-OS-CT-CI   1    0.383         0.0            -3.
 CT-OS-CT-CI   1    0.100       180.0             2.
 CT-LD-CT-CI   1    0.383         0.0            -3.         ...
 CT-LD-CT-CI   1    0.100       180.0             2.         ...
+H1-CI-CT-OS   1    0.00          0.0            -3.
 H1-CI-CT-OS   1    0.250         0.0             1.
+H1-CI-CT-LD   1    0.00          0.0            -3.
 H1-CI-CT-LD   1    0.250         0.0             1.         ...
+H1-CI-CT-OH   1    0.000         0.0            -3.
 H1-CI-CT-OH   1    0.250         0.0             1.
+H1-CI-CT-LH   1    0.000         0.0            -3.
 H1-CI-CT-LH   1    0.250         0.0             1.
+H1-CT-CI-OS   1    0.00          0.0            -3.
 H1-CT-CI-OS   1    0.250         0.0             1.
+H1-CT-CI-LD   1    0.00          0.0            -3.
 H1-CT-CI-LD   1    0.250         0.0             1.         ...
+H1-CT-CI-OH   1    0.00          0.0            -3.
 H1-CT-CI-OH   1    0.250         0.0             1.
+H1-CT-CI-LH   1    0.00          0.0            -3.
 H1-CT-CI-LH   1    0.250         0.0             1.
 CI-CT-CT-CT   1    0.180         0.0            -3.
 CI-CT-CT-CT   1    0.250       180.0            -2.
 CI-CT-CT-CT   1    0.200       180.0             1.
+OP-P -OS-CA   1    0.0         180.0            -3.         phosphotyrosine
 OP-P -OS-CA   1    0.0         180.0             1.         phosphotyrosine
-OP-P -LD-CA   1    0.0         180.0             1.         ...
+OP-P -LD-CA   1    0.0         180.0            -3.         mdudek
+OP-P -LD-CA   1    0.0         180.0             1.         mdudek
 CC-NA-P -OP   1    0.24          0.0             3.         phosphohistidine
 CR-NA-P -OP   1    0.00          0.0             3.         phosphohistidine
 OS-P -OS-CI   1    0.185181     31.79508        -1.         alfa

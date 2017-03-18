@@ -377,7 +377,7 @@ LOOP CLOSING EXPLICIT
 DONE
 R-L-ADENOSINE - with 5' - phosphate group and 3' - O(minus) group 
 
- LA   INT     1
+ LA0  INT     1
  CORRECT OMIT DU   BEG
    0.0
    1   DUMM  DU    M    0  -1  -2    0.00      0.00      0.00       0.0000
@@ -964,7 +964,7 @@ LOOP CLOSING EXPLICIT
  DONE
 R-L-URACIL - with 5' - phosphate group and 3' - O(minus) group 
 
- LU   INT     1
+ LU0  INT     1
  CORRECT OMIT DU   BEG
    0.0
    1   DUMM  DU    M    0  -1  -2    0.00      0.00      0.00       0.0000
@@ -1562,7 +1562,7 @@ LOOP CLOSING EXPLICIT
 DONE
 R-L-GUANOSINE - with 5' - phosphate group and 3' - O(minus) group 
 
- LG   INT     1
+ LG0  INT     1
  CORRECT OMIT DU   BEG
    0.0
    1   DUMM  DU    M    0  -1  -2    0.00      0.00      0.00       0.0000
@@ -2152,7 +2152,7 @@ LOOP CLOSING EXPLICIT
 DONE
 R-L-CYTOSINE - with 5' - phosphate group and 3' - O(minus) group 
 
- LC   INT     1
+ LC0  INT     1
  CORRECT OMIT DU   BEG
    0.0
    1   DUMM  DU    M    0  -1  -2    0.00      0.00      0.00       0.0000

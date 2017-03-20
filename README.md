@@ -14,9 +14,13 @@ All these files can be readily used with AMBER 14 package.
 # Rationale
 Upon inversion of the system all dihedrals change their sign. Mirror-reflected molecules can be successfully simulated in Amber ff as long as the energy of every torsional angle is symmetric around 0, which used to be the case in the past.
 Unfortunately, recent correction to Amber ff (ChiOL3) introduced a few dihedrals that break this fundamental symmetry. Specifically: Amber energies for D-ribose and L-ribose now differ, while they should not. With L-RNA ('Spiegelmers') gaining much traction nowadays, I find it very important to fix this issue. There were two possible ways to do this:
+
 a) symmetrize the ChiOL3 dihedrals, or
+
 b) introduce 'mirror counterpart' for every ChiOL3 dihedral.
-I chose the latter way, mostly because ChiOL3 is generally approved and changing it would break backwards compatibility. Luckily, it turned out that all nonsymmetric dihedrals contain at least one atom of OS or OH type. I was able to introduce mirror images of ChiOL3 dihedrals, with OS and OH atoms renamed to LD and LH. Then I defined enantiomers of standard nucleotides (LA, LC, LG, LU) and pointed them to use my new dihedral parameters. Now single-point energies for RNA enantiomers do agree and MD simulations can benefit from both: 1) ChiOL3 and 2) symmetry upon parity transformation.
+
+I chose the latter way, mostly because ChiOL3 is generally approved and changing it would break backward compatibility. Luckily, it turned out that all nonsymmetric dihedrals contain at least one atom of 'OS' or 'OH' type. I was able to introduce mirror images of ChiOL3 dihedrals, with 'OS' and 'OH' atoms renamed to 'LD' and 'LH'. Then I defined enantiomers of standard nucleotides (LA, LC, LG, LU) and pointed them to use my new dihedral parameters. 
+Now single-point energies for RNA enantiomers do agree and MD simulations can benefit from both: 1) ChiOL3 and 2) symmetry upon parity transformation.
 
 # Installation
 Prerequisites: bash and Amber14 installed (not tested with Amber15). $AMBERHOME must be set properly.

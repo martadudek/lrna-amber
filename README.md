@@ -9,7 +9,7 @@ This repository contains the following files:
 - executable script (install.sh)
 - exemplary .pdb file to test the modified force field
 
-All these files can be readily used with AMBER 14 package.
+All these files can be readily used with AMBER 14 package. If you are using AMBER 16 please check out the following branch https://github.com/martadudek/lrna-amber/tree/amber16
 
 # Rationale
 Upon inversion of the system all dihedrals change their sign. Mirror-reflected molecules can be successfully simulated in Amber ff as long as the energy of every torsional angle is symmetric around 0, which used to be the case in the past. Unfortunately, recent correction to Amber ff (chiOL3) introduced a few dihedrals that break this fundamental symmetry. Specifically: Amber energies for D-ribose and L-ribose now differ, while they should not. With L-RNA ('Spiegelmers') gaining much traction nowadays, I find it very important to fix this issue. There were two possible ways to do this:
